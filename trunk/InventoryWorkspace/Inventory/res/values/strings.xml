@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, InventoryActivity!</string>
+    <string name="app_name">Inventory</string>
+    <string name="scanBarcode">Scan barcode</string>
+    <string name="Click">Click button</string>
+    <string name="productTypeLabel">Category:</string>
+    <string name="productPriceLabel">Price CHF:</string>
+    <string name="productCapacityLabel">Capacity:</string>
+    <string name="productStockLabel">Stock:</string>
+    <string name="productBarcodeLabel">Barcode:</string>
+    <string name="productEditButton">Edit</string>
+    <string name="productNameLabel">Name:</string>
+    <string name="productDescriptionLabel">Description:</string>
+    <string name="saveBtn">Save</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="productBackBtn">Back</string>
+    <string name="listproductlabel">List all products</string>
+    <string name="lpContextMenuDeleteFromDB">Delete from database</string>
+    <string name="lpContextMenuEditProduct">Edit product</string>
+    <string name="lpContextMenuShowProduct">Show product</string>
+    <string name="epTakePictureBtn">Take picture</string>
+    <string name="epTakePictureLabel">Picture:</string>
+    <string name="epNoPicture">No picture</string>
+    <string name="epNewTypeBtnLabel">New</string>
+    <string name="etNameLabel">New type name:</string>
+    <string name="etCancelLabel">Cancel</string>
+    <string name="etSaveLabel">Save</string>
+    <string name="productlistmenufilterlbl">Add filter</string>
+    <string name="iamTypeListLbl">Show types</string>
+</resources>
