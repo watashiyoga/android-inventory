@@ -1,0 +1,40 @@
+1307969167398	Delete element
+1307970548157	Extract method 'getViewComponents'
+1307971239573	Rename method 'setButtonActions'
+1307971250419	Rename method 'setListeners'
+1307977637587	Extracts string 'null' into R.string.productNameLabel
+1307977825187	Extracts string 'null' into R.string.productDescriptionLabel
+1307979302160	Rename local variable 'intentShowProduct'
+1307987534479	Extract method 'showProduct'
+1307995905417	Extracts string 'null' into R.string.productBackBtn
+1308081455645	Extracts string 'null' into R.string.listproductlabel
+1308082739485	Rename field 'productsList'
+1308161625696	Delete element
+1308161696843	Rename local variable 'arg2'
+1308162064236	Extracts string 'null' into R.string.deleteProductFromDB
+1308162722770	Delete element
+1308164923377	Delete element
+1308165144248	Extract method 'showProduct'
+1308171291495	Extracts string 'null' into R.string.epTakePictureBtn
+1308171378851	Extracts string 'null' into R.string.epTakePictureLabel
+1308253460293	Rename local variable 'intentEditProduct'
+1308384217469	Rename resource 'intentresluts.xml'
+1308384251027	Delete element
+1308390615195	Rename field 'pictureDirectory'
+1308390702522	Rename method 'getPictureDirectory'
+1308394987783	Extracts string 'null' into R.string.epNoPicture
+1308401895040	Extracts string 'null' into R.string.epNewTypeBtnLabel
+1308403275389	Delete element
+1308409077441	Rename field 'id'
+1308409091977	Rename field 'text'
+1308409102429	Rename field 'ID'
+1308410798197	Extracts string 'null' into R.string.etNameLabel
+1308410916470	Extracts string 'null' into R.string.etCancelLabel
+1308410945367	Extracts string 'null' into R.string.etCreateLabel
+1308432356277	Rename field 'DICTIONARY_TABLE_CREATE'
+1308489279684	Extract method 'updateTypeList'
+1308492161300	Rename local variable 'isEqual'
+1308509418329	Extracts string 'null' into R.string.productlistmenufilterlbl
+1308512629660	Rename method 'getProductsByCategory'
+1308515611225	Extracts string 'null' into R.string.iamTypeListLbl
+1308515834084	Copy compilation unit

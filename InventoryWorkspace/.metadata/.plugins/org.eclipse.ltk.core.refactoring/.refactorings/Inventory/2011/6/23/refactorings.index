@@ -1,0 +1,25 @@
+1307898064112	Rename type 'Beer'
+1307898087414	Rename method 'getBeerFromDB'
+1307898106795	Rename local variable 'beer'
+1307907104428	Delete element
+1307909168045	Rename resource 'editProduct.xml'
+1307910191076	Extracts string 'null' into R.string.productTypeLabel
+1307910299670	Extracts string 'null' into R.string.productPriceLabel
+1307910812197	Extracts string 'null' into R.string.productCapacityLabel
+1307910882172	Extracts string 'null' into R.string.productStockLabel
+1307910960039	Extracts string 'null' into R.string.productBarcodeLabel
+1307912875663	Extracts string 'null' into R.string.productEditButton
+1307913358900	Delete element
+1307913364558	Delete element
+1307914529075	Delete element
+1307914550281	Rename resource 'showProduct.xml'
+1307914564374	Delete element
+1307914574811	Delete element
+1307914593888	Rename resource 'addIcon48.png'
+1307914603672	Rename resource 'deleteIcon48.png'
+1307914613821	Rename resource 'deletecon48.png'
+1307915234078	Rename resource 'showproduct.xml'
+1307915244179	Rename resource 'showproducttemp.xml'
+1307915399152	Rename resource 'showproduct.xml'
+1307915451053	Rename resource 'showProduct.xml'
+1307915460521	Rename resource 'showroduct.xml'

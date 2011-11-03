@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Inventory/src&lt;com.inventory{ListProduct.java[ListProduct" modifiers="1" timestamp="1308515054000"/>
+<typeInfo handle="=Inventory/src&lt;com.inventory{ListType.java[ListType" modifiers="1" timestamp="1308516484000"/>
+<typeInfo handle="=Inventory/src&lt;com.inventory{InventoryActivity.java[InventoryActivity" modifiers="1" timestamp="1308516554000"/>
+<typeInfo handle="=Inventory/src&lt;com.inventory{EditType.java[EditType" modifiers="1" timestamp="1308512826000"/>
+<typeInfo handle="=Inventory/src&lt;com.inventory{EditProduct.java[EditProduct" modifiers="1" timestamp="1308515192000"/>
+<typeInfo handle="=Inventory/src&lt;com.dbHelpers{Type.java[Type" modifiers="1" timestamp="1308492761000"/>
+<typeInfo handle="=Inventory/src&lt;com.inventory{ShowProduct.java[ShowProduct" modifiers="1" timestamp="1308487894000"/>
+<typeInfo handle="=Inventory/src&lt;com.dbHelpers{ProductDbOpenHelper.java[ProductDbOpenHelper" modifiers="1" timestamp="1308487132000"/>
+<typeInfo handle="=Inventory/src&lt;com.dbHelpers{Product.java[Product" modifiers="1" timestamp="1308512629000"/>
+</typeInfoHistroy>

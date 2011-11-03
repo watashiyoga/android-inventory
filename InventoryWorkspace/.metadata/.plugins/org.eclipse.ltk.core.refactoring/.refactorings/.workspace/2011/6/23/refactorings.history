@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Inventory/res/layout-normal-port&apos;" deleteContents="false" description="Delete resource &apos;Inventory/res/layout-normal-port&apos;" element1="/Inventory/res/layout-normal-port" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1307915388333"/>
+</session>

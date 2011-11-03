@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="horizontal" android:visibility="visible" android:id="@+id/showProduct" android:tag="showProduct" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView1" android:layout_height="match_parent" android:layout_width="match_parent" android:visibility="visible">
+        <TableLayout android:id="@+id/tableLayout1" android:layout_height="match_parent" android:layout_width="match_parent">
+            <TableRow android:id="@+id/tableRow1" android:layout_height="match_parent" android:layout_width="match_parent" android:baselineAligned="false" android:layout_gravity="left">
+                <LinearLayout android:layout_gravity="left" android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="ProductName" android:layout_width="match_parent" android:gravity="center" android:id="@+id/spName" android:layout_height="match_parent" android:textSize="30sp"></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:baselineAligned="false" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="100sp" android:src="@drawable/nopicture128" android:layout_gravity="top" android:layout_height="120sp" android:id="@+id/spPicture"></ImageView>
+                    <TextView android:text="Description" android:layout_width="wrap_content" android:id="@+id/spDescription" android:layout_height="wrap_content" android:textSize="18sp"></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow7" android:visibility="visible"></TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow2">
+                <LinearLayout android:id="@+id/linearLayout8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/productTypeLabel" android:layout_width="100sp" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_marginTop="20sp"></TextView>
+                    <TextView android:text="TextView" android:layout_width="wrap_content" android:id="@+id/spType" android:layout_height="wrap_content" android:layout_marginTop="20sp"></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:layout_width="match_parent">
+                <LinearLayout android:id="@+id/linearLayout7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/productPriceLabel" android:layout_width="100sp" android:id="@+id/textView8" android:layout_height="wrap_content"></TextView>
+                    <TextView android:text="TextView" android:layout_width="wrap_content" android:id="@+id/spPrice" android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:id="@+id/linearLayout6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/productCapacityLabel" android:layout_width="100sp" android:id="@+id/textView4" android:layout_height="wrap_content"></TextView>
+                    <TextView android:text="TextView" android:layout_width="wrap_content" android:id="@+id/spCapacity" android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRow8">
+                <LinearLayout android:id="@+id/linearLayout5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="@string/productBarcodeLabel" android:layout_width="100sp" android:id="@+id/textView10" android:layout_height="wrap_content"></TextView>
+                    <TextView android:text="TextView" android:layout_width="wrap_content" android:id="@+id/spBarcode" android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="match_parent" android:baselineAligned="false" android:layout_gravity="center|center_vertical">
+                <LinearLayout android:id="@+id/linearLayout4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="top" android:text="@string/productStockLabel" android:gravity="center_vertical" android:layout_width="100sp" android:id="@+id/textView6" android:layout_height="match_parent"></TextView>
+                    <TextView android:layout_marginRight="0sp" android:layout_gravity="top" android:text="TextView" android:gravity="center_vertical" android:id="@+id/spStock" android:layout_height="match_parent" android:layout_width="wrap_content"></TextView>
+                    <ImageButton android:background="#000000" android:layout_gravity="left" android:clickable="true" android:src="@drawable/addicon48" android:id="@+id/spBtnAdd" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="30sp"></ImageButton>
+                    <ImageButton android:background="#000000" android:layout_gravity="center_vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/deleteicon48" android:id="@+id/spDeleteBtn" android:layout_marginLeft="30sp"></ImageButton>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_gravity="center">
+            </TableRow>
+            <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow10" android:baselineAligned="false" android:layout_gravity="center_horizontal" android:layout_width="wrap_content">
+                <LinearLayout android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_gravity="left">
+                    <Button android:text="@string/productBackBtn" android:layout_marginTop="30sp" android:layout_width="120sp" android:id="@+id/spBackBtn" android:layout_height="wrap_content" android:drawableLeft="@drawable/backicon48"></Button>
+                    <Button android:layout_marginTop="30sp" android:text="@string/productEditButton" android:layout_width="120sp" android:id="@+id/spBtnEdit" android:layout_height="wrap_content" android:drawableLeft="@drawable/editicon48"></Button>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
